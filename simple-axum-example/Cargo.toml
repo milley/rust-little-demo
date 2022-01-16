@@ -8,3 +8,5 @@ edition = "2021"
 [dependencies]
 axum = "0.4.4"
 tokio = { version = "1", features = ["full"] } # 异步处理
+serde = { version = "1", features = ["derive"] } # 序列化/反序列化数据
+serde_json = "1.0.75"
